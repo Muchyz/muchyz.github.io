@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Kelvin Muchiri | Portfolio</title>
-  <meta name="description" content="Kelvin Muchiri — Web Developer. HTML, CSS & JavaScript developer building clean, responsive and accessible websites." />
+  <meta name="description" content="Kelvin Muchiri — Web Developer. HTML, CSS & JavaScript developer building clean, responsive, and accessible websites." />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -192,9 +192,9 @@
       <div class="section-body">
         <div class="content videos-grid" id="videosGrid">
 
-          <!-- 10 video cards. Place your files into assets/videos/ and name them exactly:
+          <!-- 10 video cards. Place your files into the repo root and name them exactly:
                VID1.mp4, VID2.mp4, ... VID10.mp4
-               Optionally add posters: VID1-poster.jpg etc (used if present). -->
+               Posters removed — videos will be created with controls and no poster. -->
 
           <!-- Video 1 -->
           <figure class="video-card">
@@ -202,13 +202,11 @@
               <button class="video-placeholder"
                       aria-label="Play VID1"
                       data-mp4="VID1.mp4"
-                      data-poster="VID1-poster.jpg"
                       type="button">
-                <img src="VID1-poster.jpg" alt="Thumbnail: VID1" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="VID1-poster.jpg">
+                <video controls preload="metadata" playsinline>
                   <source src="VID1.mp4" type="video/mp4">
                   <p><a href="VID1.mp4">Download VID1</a></p>
                 </video>
@@ -216,7 +214,7 @@
             </div>
             <figcaption>
               <strong>VID1</strong>
-              <p class="muted">VID1.mp4</p>
+              <p class="muted">Place VID1.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -226,21 +224,19 @@
               <button class="video-placeholder"
                       aria-label="Play VID2"
                       data-mp4="VID2.mp4"
-                      data-poster="VID2-poster.jpg"
                       type="button">
-                <img src="VID2-poster.jpg" alt="Thumbnail: VID2" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID2-poster.jpg">
-                  <source src="assets/videosVID2.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID2.mp4">Download VID2</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID2.mp4" type="video/mp4">
+                  <p><a href="VID2.mp4">Download VID2</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID2</strong>
-              <p class="muted">Rename as assets/videos/VID2.mp4</p>
+              <p class="muted">Place VID2.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -249,22 +245,20 @@
             <div class="video-player" role="region" aria-label="Video VID3">
               <button class="video-placeholder"
                       aria-label="Play VID3"
-                      data-mp4="assets/videos/VID3.mp4"
-                      data-poster="assets/videos/VID3-poster.jpg"
+                      data-mp4="VID3.mp4"
                       type="button">
-                <img src="assets/videos/VID3-poster.jpg" alt="Thumbnail: VID3" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID3-poster.jpg">
-                  <source src="assets/videos/VID3.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID3.mp4">Download VID3</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID3.mp4" type="video/mp4">
+                  <p><a href="VID3.mp4">Download VID3</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID3</strong>
-              <p class="muted">Rename as assets/videos/VID3.mp4</p>
+              <p class="muted">Place VID3.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -273,22 +267,20 @@
             <div class="video-player" role="region" aria-label="Video VID4">
               <button class="video-placeholder"
                       aria-label="Play VID4"
-                      data-mp4="assets/videos/VID4.mp4"
-                      data-poster="assets/videos/VID4-poster.jpg"
+                      data-mp4="VID4.mp4"
                       type="button">
-                <img src="assets/videos/VID4-poster.jpg" alt="Thumbnail: VID4" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID4-poster.jpg">
-                  <source src="assets/videos/VID4.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID4.mp4">Download VID4</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID4.mp4" type="video/mp4">
+                  <p><a href="VID4.mp4">Download VID4</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID4</strong>
-              <p class="muted">Rename as assets/videos/VID4.mp4</p>
+              <p class="muted">Place VID4.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -297,22 +289,20 @@
             <div class="video-player" role="region" aria-label="Video VID5">
               <button class="video-placeholder"
                       aria-label="Play VID5"
-                      data-mp4="assets/videos/VID5.mp4"
-                      data-poster="assets/videos/VID5-poster.jpg"
+                      data-mp4="VID5.mp4"
                       type="button">
-                <img src="assets/videos/VID5-poster.jpg" alt="Thumbnail: VID5" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID5-poster.jpg">
-                  <source src="assets/videos/VID5.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID5.mp4">Download VID5</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID5.mp4" type="video/mp4">
+                  <p><a href="VID5.mp4">Download VID5</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID5</strong>
-              <p class="muted">Rename as assets/videos/VID5.mp4</p>
+              <p class="muted">Place VID5.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -321,22 +311,20 @@
             <div class="video-player" role="region" aria-label="Video VID6">
               <button class="video-placeholder"
                       aria-label="Play VID6"
-                      data-mp4="assets/videos/VID6.mp4"
-                      data-poster="assets/videos/VID6-poster.jpg"
+                      data-mp4="VID6.mp4"
                       type="button">
-                <img src="assets/videos/VID6-poster.jpg" alt="Thumbnail: VID6" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID6-poster.jpg">
-                  <source src="assets/videos/VID6.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID6.mp4">Download VID6</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID6.mp4" type="video/mp4">
+                  <p><a href="VID6.mp4">Download VID6</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID6</strong>
-              <p class="muted">Rename as assets/videos/VID6.mp4</p>
+              <p class="muted">Place VID6.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -345,22 +333,20 @@
             <div class="video-player" role="region" aria-label="Video VID7">
               <button class="video-placeholder"
                       aria-label="Play VID7"
-                      data-mp4="assets/videos/VID7.mp4"
-                      data-poster="assets/videos/VID7-poster.jpg"
+                      data-mp4="VID7.mp4"
                       type="button">
-                <img src="assets/videos/VID7-poster.jpg" alt="Thumbnail: VID7" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID7-poster.jpg">
-                  <source src="assets/videos/VID7.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID7.mp4">Download VID7</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID7.mp4" type="video/mp4">
+                  <p><a href="VID7.mp4">Download VID7</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID7</strong>
-              <p class="muted">Rename as assets/videos/VID7.mp4</p>
+              <p class="muted">Place VID7.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -369,22 +355,20 @@
             <div class="video-player" role="region" aria-label="Video VID8">
               <button class="video-placeholder"
                       aria-label="Play VID8"
-                      data-mp4="assets/videos/VID8.mp4"
-                      data-poster="assets/videos/VID8-poster.jpg"
+                      data-mp4="VID8.mp4"
                       type="button">
-                <img src="assets/videos/VID8-poster.jpg" alt="Thumbnail: VID8" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID8-poster.jpg">
-                  <source src="assets/videos/VID8.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID8.mp4">Download VID8</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID8.mp4" type="video/mp4">
+                  <p><a href="VID8.mp4">Download VID8</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID8</strong>
-              <p class="muted">Rename as assets/videos/VID8.mp4</p>
+              <p class="muted">Place VID8.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -393,22 +377,20 @@
             <div class="video-player" role="region" aria-label="Video VID9">
               <button class="video-placeholder"
                       aria-label="Play VID9"
-                      data-mp4="assets/videos/VID9.mp4"
-                      data-poster="assets/videos/VID9-poster.jpg"
+                      data-mp4="VID9.mp4"
                       type="button">
-                <img src="assets/videos/VID9-poster.jpg" alt="Thumbnail: VID9" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID9-poster.jpg">
-                  <source src="assets/videos/VID9.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID9.mp4">Download VID9</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID9.mp4" type="video/mp4">
+                  <p><a href="VID9.mp4">Download VID9</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID9</strong>
-              <p class="muted">Rename as assets/videos/VID9.mp4</p>
+              <p class="muted">Place VID9.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -417,22 +399,20 @@
             <div class="video-player" role="region" aria-label="Video VID10">
               <button class="video-placeholder"
                       aria-label="Play VID10"
-                      data-mp4="assets/videos/VID10.mp4"
-                      data-poster="assets/videos/VID10-poster.jpg"
+                      data-mp4="VID10.mp4"
                       type="button">
-                <img src="assets/videos/VID10-poster.jpg" alt="Thumbnail: VID10" onerror="this.style.display='none'"/>
                 <span class="play-icon" aria-hidden="true">►</span>
               </button>
               <noscript>
-                <video controls preload="metadata" playsinline poster="assets/videos/VID10-poster.jpg">
-                  <source src="assets/videos/VID10.mp4" type="video/mp4">
-                  <p><a href="assets/videos/VID10.mp4">Download VID10</a></p>
+                <video controls preload="metadata" playsinline>
+                  <source src="VID10.mp4" type="video/mp4">
+                  <p><a href="VID10.mp4">Download VID10</a></p>
                 </video>
               </noscript>
             </div>
             <figcaption>
               <strong>VID10</strong>
-              <p class="muted">Rename as assets/videos/VID10.mp4</p>
+              <p class="muted">Place VID10.mp4 in the repository root</p>
             </figcaption>
           </figure>
 
@@ -834,6 +814,7 @@ Chat Kelvin
 
   /* ==========================
      Lazy-load local videos: create <video> only on user click
+     (posters removed — create video with controls and no poster)
      ========================== */
   (function(){
     document.addEventListener('click', function (e) {
@@ -842,14 +823,13 @@ Chat Kelvin
 
       // read source from data attributes
       const mp4 = btn.dataset.mp4;
-      const poster = btn.dataset.poster;
 
       // create video element
       const video = document.createElement('video');
       video.controls = true;
       video.playsInline = true;
       video.preload = 'metadata';
-      if (poster) video.poster = poster;
+      // poster intentionally removed — video will appear with controls only
       video.style.width = '100%';
       video.style.height = 'auto';
       video.setAttribute('tabindex', '0');
@@ -882,4 +862,4 @@ Chat Kelvin
   })();
   </script>
 </body>
-</html>
+                </html>
