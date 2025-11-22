@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<!--Coded by Kelvinmuchiri699@gmail.com-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kelvin Muchiri | Portfolio</title>
+  <meta name="description" content="Kelvin Muchiri — Web Developer. HTML, CSS & JavaScript developer building clean, responsive and accessible websites." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Sparkles -->
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <!-- HEADER with dropdown menu -->
+  <header class="site-header">
+    <a href="#home" class="logo" aria-label="Kelvin Muchiri Portfolio">Muchiri</a>
+
+    <div class="nav-wrap">
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="primaryNav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#skills" data-target="skills">Skills</a></li>
+          <li><a href="#testimonials" data-target="testimonials">Testimonials</a></li>
+          <li><a href="#videos" data-target="videos">Videos</a></li>
+          <li><a href="#projects" data-target="projects">Projects</a></li>
+          <li><a href="#about" data-target="about">About me</a></li>
+          <li><a href="#contact" data-target="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--Main hero-->
+<main>
+  <section class="main-hero" id="home">
+  <div class="hero-inner">
+    <!-- Profile image -->
+   <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&h=500&w=500" alt="Portrait 2" class="hero-photo">
+    <!-- Title -->
+    <h1 class="hero-title">Hello, I'm <span class="name">Kelvin Muchiri</span></h1>
+
+    <!-- Subtitle -->
+    <p class="hero-sub">
+      <strong class="role">Web Developer ⭐</strong>
+    </p>
+
+    <!-- Typewriter effect -->
+    <h2 class="typewrap" aria-live="polite">
+      <span id="typewriter" class="typewriter"></span>
+      <span class="cursor" aria-hidden="true">|</span>
+    </h2>
+
+    <!-- Button -->
+    <a href="#projects" class="btn primary">View Projects</a>
+  </div>
+
+  <!-- Social icons -->
+  <div class="hero-socials" aria-hidden="false">
+    <a href="#" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="#" title="Twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="#" title="Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="#" title="GitHub"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+    <a href="#" title="Reddit"><i class="fab fa-reddit-square" aria-hidden="true"></i></a>
+  </div>
+</section>
+
+    <!-- Testimonials -->
+    <section class="testimonials collapsible-section" id="testimonials" data-open="true" aria-label="Testimonials">
+      <div class="section-header">
+        <h2 class="title">Testimonials</h2>
+        <button class="section-toggle" aria-label="Toggle testimonials">▼</button>
+      </div>
+
+      <div class="section-body">
+        <div class="testimonial-wrap">
+          <button class="t-arrow prev" aria-label="Previous testimonial" title="Previous">&larr;</button>
+
+          <div class="testimonial-slider" id="testimonialSlider" tabindex="0" role="list">
+            <article class="testimonial-card" role="listitem" aria-label="Testimonial 1">
+              <p class="testimonial-text">
+                “Kelvin is a highly skilled developer. He delivered our website fast and the design exceeded expectations.”
+              </p>
+              <div class="client-info">
+               <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=faces&fit=crop&w=500&h=500" alt="Sarah K" />
+                <h3>Sarah K.</h3>
+                <span>Business Owner  ~ U.S.A</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="listitem" aria-label="Testimonial 2">
+              <p class="testimonial-text">
+                “Professional, creative, and easy to work with. I recommend Kelvin for any web project.”
+              </p>
+              <div class="client-info">
+             <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?crop=faces&fit=crop&w=500&h=500" alt="Arthur" />
+                <h3>Arthur James</h3>
+                <span>Entrepreneur ~ London</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="listitem" aria-label="Testimonial 3">
+              <p class="testimonial-text">
+                “He transformed my idea into a beautiful website. Excellent communication and skills!”
+              </p>
+              <div class="client-info">
+                <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&h=500&w=500" alt="Brian" />
+                <h3>Brian O.</h3>
+                <span>Freelancer</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="listitem" aria-label="Testimonial 4">
+              <p class="testimonial-text">
+                “His attention to detail and speed is unmatched. Kelvin is truly talented.”
+              </p>
+              <div class="client-info">
+                <img src="https://i.imgur.com/0y8Ftya.png" alt="Linda W" loading="lazy" />
+                <h3>Linda W.</h3>
+                <span>Shop Owner</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="listitem" aria-label="Testimonial 5">
+              <p class="testimonial-text">
+                “Kelvin created exactly what I imagined. I will definitely work with him again!”
+              </p>
+              <div class="client-info">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=500&w=500" alt="Weston" />
+
+                <h3>Weston T.</h3>
+                <span>Photographer ~ Johannesburg</span>
+              </div>
+            </article>
+          </div>
+
+          <button class="t-arrow next" aria-label="Next testimonial" title="Next">&rarr;</button>
+        </div>
+
+        <div class="testimonial-dots" id="testimonialDots" aria-hidden="false"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="cards collapsible-section" id="skills" data-open="true">
+      <div class="section-header">
+        <h2 class="title">Skills</h2>
+        <button class="section-toggle" aria-label="Toggle skills">▼</button>
+      </div>
+
+      <div class="section-body">
+        <div class="content cards-grid">
+          <div class="card">
+            <div class="icon"><i class="fab fa-html5" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3>HTML</h3>
+              <p>Building clean, semantic and accessible HTML structures.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon"><i class="fab fa-css3-alt" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3>CSS</h3>
+              <p>Responsive layouts using Flexbox, Grid, animations and UI polish.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon"><i class="fab fa-js" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3>JavaScript</h3>
+              <p>DOM scripting, vanilla JS, and modern patterns to build interactivity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS (10 local placeholders) -->
+    <section class="videos collapsible-section" id="videos" data-open="true" aria-label="Videos">
+      <div class="section-header">
+        <h2 class="title">Videos</h2>
+        <button class="section-toggle" aria-label="Toggle videos">▼</button>
+      </div>
+
+      <div class="section-body">
+        <div class="content videos-grid" id="videosGrid">
+
+          <!-- 10 video cards. Place your files into assets/videos/ and name them exactly:
+               VID1.mp4, VID2.mp4, ... VID10.mp4
+               Optionally add posters: VID1-poster.jpg etc (used if present). -->
+
+          <!-- Video 1 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID1">
+              <button class="video-placeholder"
+                      aria-label="Play VID1"
+                      data-mp4="assets/videos/VID1.mp4"
+                      data-poster="assets/videos/VID1-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID1-poster.jpg" alt="Thumbnail: VID1" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID1-poster.jpg">
+                  <source src="assets/videos/VID1.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID1.mp4">Download VID1</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID1</strong>
+              <p class="muted">Rename as assets/videos/VID1.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 2 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID2">
+              <button class="video-placeholder"
+                      aria-label="Play VID2"
+                      data-mp4="assets/videos/VID2.mp4"
+                      data-poster="assets/videos/VID2-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID2-poster.jpg" alt="Thumbnail: VID2" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID2-poster.jpg">
+                  <source src="assets/videos/VID2.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID2.mp4">Download VID2</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID2</strong>
+              <p class="muted">Rename as assets/videos/VID2.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 3 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID3">
+              <button class="video-placeholder"
+                      aria-label="Play VID3"
+                      data-mp4="assets/videos/VID3.mp4"
+                      data-poster="assets/videos/VID3-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID3-poster.jpg" alt="Thumbnail: VID3" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID3-poster.jpg">
+                  <source src="assets/videos/VID3.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID3.mp4">Download VID3</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID3</strong>
+              <p class="muted">Rename as assets/videos/VID3.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 4 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID4">
+              <button class="video-placeholder"
+                      aria-label="Play VID4"
+                      data-mp4="assets/videos/VID4.mp4"
+                      data-poster="assets/videos/VID4-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID4-poster.jpg" alt="Thumbnail: VID4" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID4-poster.jpg">
+                  <source src="assets/videos/VID4.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID4.mp4">Download VID4</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID4</strong>
+              <p class="muted">Rename as assets/videos/VID4.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 5 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID5">
+              <button class="video-placeholder"
+                      aria-label="Play VID5"
+                      data-mp4="assets/videos/VID5.mp4"
+                      data-poster="assets/videos/VID5-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID5-poster.jpg" alt="Thumbnail: VID5" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID5-poster.jpg">
+                  <source src="assets/videos/VID5.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID5.mp4">Download VID5</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID5</strong>
+              <p class="muted">Rename as assets/videos/VID5.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 6 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID6">
+              <button class="video-placeholder"
+                      aria-label="Play VID6"
+                      data-mp4="assets/videos/VID6.mp4"
+                      data-poster="assets/videos/VID6-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID6-poster.jpg" alt="Thumbnail: VID6" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID6-poster.jpg">
+                  <source src="assets/videos/VID6.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID6.mp4">Download VID6</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID6</strong>
+              <p class="muted">Rename as assets/videos/VID6.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 7 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID7">
+              <button class="video-placeholder"
+                      aria-label="Play VID7"
+                      data-mp4="assets/videos/VID7.mp4"
+                      data-poster="assets/videos/VID7-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID7-poster.jpg" alt="Thumbnail: VID7" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID7-poster.jpg">
+                  <source src="assets/videos/VID7.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID7.mp4">Download VID7</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID7</strong>
+              <p class="muted">Rename as assets/videos/VID7.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 8 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID8">
+              <button class="video-placeholder"
+                      aria-label="Play VID8"
+                      data-mp4="assets/videos/VID8.mp4"
+                      data-poster="assets/videos/VID8-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID8-poster.jpg" alt="Thumbnail: VID8" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID8-poster.jpg">
+                  <source src="assets/videos/VID8.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID8.mp4">Download VID8</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID8</strong>
+              <p class="muted">Rename as assets/videos/VID8.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 9 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID9">
+              <button class="video-placeholder"
+                      aria-label="Play VID9"
+                      data-mp4="assets/videos/VID9.mp4"
+                      data-poster="assets/videos/VID9-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID9-poster.jpg" alt="Thumbnail: VID9" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID9-poster.jpg">
+                  <source src="assets/videos/VID9.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID9.mp4">Download VID9</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID9</strong>
+              <p class="muted">Rename as assets/videos/VID9.mp4</p>
+            </figcaption>
+          </figure>
+
+          <!-- Video 10 -->
+          <figure class="video-card">
+            <div class="video-player" role="region" aria-label="Video VID10">
+              <button class="video-placeholder"
+                      aria-label="Play VID10"
+                      data-mp4="assets/videos/VID10.mp4"
+                      data-poster="assets/videos/VID10-poster.jpg"
+                      type="button">
+                <img src="assets/videos/VID10-poster.jpg" alt="Thumbnail: VID10" onerror="this.style.display='none'"/>
+                <span class="play-icon" aria-hidden="true">►</span>
+              </button>
+              <noscript>
+                <video controls preload="metadata" playsinline poster="assets/videos/VID10-poster.jpg">
+                  <source src="assets/videos/VID10.mp4" type="video/mp4">
+                  <p><a href="assets/videos/VID10.mp4">Download VID10</a></p>
+                </video>
+              </noscript>
+            </div>
+            <figcaption>
+              <strong>VID10</strong>
+              <p class="muted">Rename as assets/videos/VID10.mp4</p>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects collapsible-section" id="projects" data-open="true">
+      <div class="section-header">
+        <h2 class="title">Projects</h2>
+        <button class="section-toggle" aria-label="Toggle projects">▼</button>
+      </div>
+
+      <div class="section-body">
+        <div class="content projects-grid">
+          <div class="project-card">
+            <div class="project-image"><img src="https://d.top4top.io/p_2285jccso1.jpg" alt="Bitcoin project" loading="lazy" /></div>
+            <div class="project-info">
+              <p class="project-category">Blockchain</p>
+              <strong class="project-title">
+                <span>Bitcoin</span>
+                <a href="#" class="more-details">More Details</a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src="https://c.top4top.io/p_22857jg8g1.jpg" alt="Web dev project" loading="lazy" /></div>
+            <div class="project-info">
+              <p class="project-category">Web Development</p>
+              <strong class="project-title">
+                <span>HTML, CSS & JS</span>
+                <a href="#" class="more-details">More Details</a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src="https://g.top4top.io/p_2285jrpkv1.jpg" alt="Algorithms project" loading="lazy" /></div>
+            <div class="project-info">
+              <p class="project-category">Problem Solving</p>
+              <strong class="project-title">
+                <span>Algorithms</span>
+                <a href="#" class="more-details">More Details</a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About me-->
+    <section class="projects collapsible-section" id="about" data-open="true">
+      <div class="section-header">
+        <h2 class="title">About Me</h2>
+        <button class="section-toggle" aria-label="Toggle projects">▼</button>
+      </div>
+
+     <div class="card">
+    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+    <div class="info">
+        <h3>● Kenyan Web Developer</h3>
+        <p>Skilled in building a wide range of responsive and modern websites using HTML, CSS & JavaScript</p>
+    </div>
+</div>
+          <div class="project-card">
+            <div class="project-image"><img src="https://api2.sololearn.com/v2/certificates/CC-P05WTQRJ/image/png?t=638990441963887090" alt="Web dev project" loading="lazy" /></div>
+            <div class="project-info">
+              <p class="project-category">I hold Certificate for Web Development and am accredited the right to biuld any type of website</p>
+              <strong class="project-title">
+                <span>HTML, CSS & JS</span>
+                <a href="https://api2.sololearn.com/v2/certificates/CC-P05WTQRJ/image/png?t=638990441963887090">Check Details</a>
+              </strong>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cards contact collapsible-section" id="contact" data-open="true">
+      <div class="section-header">
+        <h2 class="title">Let's Work Together</h2>
+        <button class="section-toggle" aria-label="Toggle contact">▼</button>
+      </div>
+
+      <div class="section-body">
+        <div class="content contact-grid">
+          <div class="card">
+            <div class="icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3>Phone</h3>
+              <p>+254 104 272 476</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="icon"><i class="fas fa-envelope-square" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3>Email</h3>
+              <p><a href="mailto:kelvinmuchiri699@gmail.com">kelvinmuchiri699@gmail.com</a></p>
+            </div>
+          </div>
+          
+        <div class="card">
+    <div class="icon">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </div>
+    <div class="info">
+        <h3>WhatsApp</h3>
+        <p>
+            <a href="https://wa.me/254104272476" target="_blank">
+                +254 104 272 476
+            </a>
+        </p>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/254104272476" target="_blank"
+   style="position:fixed;
+          bottom:20px;
+          right:20px;
+          background-color:#25D366;
+          color:white;
+          padding:15px 18px;
+          border-radius:50px;
+          text-decoration:none;
+          font-weight:bold;
+          display:flex;
+          align-items:center;
+          box-shadow:0 4px 6px rgba(0,0,0,0.3);
+          z-index:9999;
+          font-family:Arial, sans-serif;">
+    
+    <!-- WhatsApp Icon -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+         alt="WhatsApp" style="width:20px; height:20px; margin-right:6px;">
+Chat Kelvin
+</a>
+
+  <footer class="footer">
+    <p class="footer-title">Copyright © <span>Kelvin Muchiri</span></p>
+    <div class="footer-socials">
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+  /* ==========================
+     Typewriter (type + delete)
+     ========================== */
+  (function(){
+    const el = document.getElementById('typewriter');
+    if (!el) return;
+    const text = "I am a passionate Web Designer who transforms ideas into clean, responsive, and visually appealing websites using HTML, CSS, and JavaScript.";
+    const typeSpeed = 36;
+    const deleteSpeed = 26;
+    const pauseAfter = 1400;
+    const pauseBefore = 600;
+    let pos = 0;
+    let deleting = false;
+
+    function tick() {
+      if (!deleting) {
+        pos++;
+        el.textContent = text.slice(0, pos);
+        if (pos >= text.length) {
+          deleting = true;
+          return setTimeout(tick, pauseAfter);
+        }
+        setTimeout(tick, typeSpeed);
+      } else {
+        pos--;
+        el.textContent = text.slice(0, pos);
+        if (pos <= 0) {
+          deleting = false;
+          return setTimeout(tick, pauseBefore);
+        }
+        setTimeout(tick, deleteSpeed);
+      }
+    }
+    // Respect reduced motion
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      el.textContent = text;
+      document.querySelector('.cursor')?.remove();
+    } else {
+      setTimeout(tick, 600);
+    }
+  })();
+
+  /* ==========================
+     Sparkles (improved)
+     ========================== */
+  (function(){
+    const container = document.querySelector('.sparkles');
+    if (!container) return;
+
+    // Respect reduced motion and small screens
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.innerWidth < 480) return;
+
+    let running = true;
+    function make() {
+      if (!running) return;
+      const s = document.createElement('span');
+      s.className = 'spark';
+      const size = Math.random() * 3 + 2;
+      s.style.width = s.style.height = size + 'px';
+      s.style.left = Math.random() * 100 + 'vw';
+      s.style.top = Math.random() * 100 + 'vh';
+      s.style.opacity = (0.3 + Math.random() * 0.7).toFixed(2);
+      container.appendChild(s);
+      setTimeout(()=> s.remove(), 3500);
+    }
+
+    // spawn approx every 180ms, throttled using setTimeout + requestAnimationFrame
+    let timer;
+    function loop() {
+      make();
+      timer = setTimeout(()=> requestAnimationFrame(loop), 180);
+    }
+    loop();
+
+    window.addEventListener('pagehide', ()=> {
+      running = false;
+      if (timer) clearTimeout(timer);
+    });
+  })();
+
+  /* ==========================
+     Testimonial slider: swipeable + autoplay + dots
+     ========================== */
+  (function(){
+    const slider = document.getElementById('testimonialSlider');
+    const dotsWrap = document.getElementById('testimonialDots');
+    const cards = slider ? Array.from(slider.querySelectorAll('.testimonial-card')) : [];
+    let current = 0;
+    let auto;
+
+    if (!slider || cards.length === 0) return;
+
+    // setup dots
+    cards.forEach((c, idx) => {
+      const dot = document.createElement('button');
+      dot.className = 'dot';
+      dot.setAttribute('aria-label', 'Go to testimonial ' + (idx+1));
+      dot.addEventListener('click', () => { goTo(idx); stopAuto(); });
+      dotsWrap.appendChild(dot);
+    });
+
+    const dots = Array.from(dotsWrap.querySelectorAll('.dot'));
+    function updateDots() {
+      dots.forEach((d,i) => d.classList.toggle('active', i===current));
+    }
+
+    function goTo(index, smooth = true) {
+      const card = cards[index];
+      if (!card) return;
+      current = index;
+      slider.scrollTo({
+        left: card.offsetLeft - (slider.clientWidth - card.clientWidth)/2,
+        behavior: smooth ? 'smooth' : 'auto'
+      });
+      updateDots();
+    }
+
+    // arrows
+    document.querySelectorAll('.t-arrow.prev').forEach(btn=>{
+      btn.addEventListener('click', ()=> { goTo((current-1+cards.length)%cards.length); stopAuto(); });
+    });
+    document.querySelectorAll('.t-arrow.next').forEach(btn=>{
+      btn.addEventListener('click', ()=> { goTo((current+1)%cards.length); stopAuto(); });
+    });
+
+    // update current on scroll (so swipe updates dots)
+    let scrollTimeout;
+    slider.addEventListener('scroll', ()=> {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        const mid = slider.scrollLeft + slider.clientWidth/2;
+        const idx = cards.findIndex(c => (c.offsetLeft <= mid && c.offsetLeft + c.clientWidth >= mid));
+        if (idx >= 0) { current = idx; updateDots(); }
+      }, 80);
+    });
+
+    // autoplay
+    function startAuto() {
+      stopAuto();
+      auto = setInterval(()=> {
+        goTo((current+1) % cards.length);
+      }, 3800);
+    }
+    function stopAuto() { if (auto) clearInterval(auto); }
+
+    // pause on focus/hover
+    slider.addEventListener('mouseenter', stopAuto);
+    slider.addEventListener('focusin', stopAuto);
+    slider.addEventListener('mouseleave', startAuto);
+    slider.addEventListener('focusout', startAuto);
+
+    // init
+    goTo(0, false);
+    startAuto();
+
+    // keyboard navigation
+    slider.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') { goTo((current-1+cards.length)%cards.length); stopAuto(); }
+      if (e.key === 'ArrowRight') { goTo((current+1)%cards.length); stopAuto(); }
+    });
+  })();
+
+  /* ==========================
+     Dropdown nav + collapsible sections behaviour
+     ========================== */
+  (function(){
+    const navToggle = document.getElementById('navToggle');
+    const primaryNav = document.getElementById('primaryNav');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      primaryNav.classList.toggle('open');
+    });
+
+    // When nav link clicked: scroll to section and collapse that section (auto collapse)
+    document.querySelectorAll('.navigation a').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = a.getAttribute('href').slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+          const body = target.querySelector('.section-body');
+          if (body) {
+            target.classList.add('open');
+            body.style.maxHeight = body.scrollHeight + 'px';
+            setTimeout(() => {
+              target.scrollIntoView({behavior:'smooth', block:'start'});
+              setTimeout(()=> {
+                body.style.maxHeight = '0';
+                target.classList.remove('open');
+              }, 700);
+            }, 200);
+          } else {
+            target.scrollIntoView({behavior:'smooth', block:'start'});
+          }
+        }
+        primaryNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+      });
+    });
+
+    // collapsible sections toggle
+    document.querySelectorAll('.collapsible-section').forEach(section => {
+      const toggle = section.querySelector('.section-toggle');
+      const body = section.querySelector('.section-body');
+
+      if (!toggle || !body) return;
+
+      if (section.dataset.open === "false") {
+        body.style.maxHeight = '0';
+        section.classList.remove('open');
+      } else {
+        body.style.maxHeight = body.scrollHeight + 'px';
+        section.classList.add('open');
+      }
+
+      toggle.addEventListener('click', () => {
+        const isOpen = section.classList.contains('open');
+        if (isOpen) {
+          body.style.maxHeight = '0';
+          section.classList.remove('open');
+          toggle.textContent = '▼';
+        } else {
+          body.style.maxHeight = body.scrollHeight + 'px';
+          section.classList.add('open');
+          toggle.textContent = '▲';
+        }
+      });
+
+      window.addEventListener('resize', () => {
+        if (section.classList.contains('open')) {
+          body.style.maxHeight = body.scrollHeight + 'px';
+        }
+      });
+    });
+  })();
+
+  /* ==========================
+     Lazy-load local videos: create <video> only on user click
+     ========================== */
+  (function(){
+    document.addEventListener('click', function (e) {
+      const btn = e.target.closest('.video-placeholder');
+      if (!btn) return;
+
+      // read source from data attributes
+      const mp4 = btn.dataset.mp4;
+      const poster = btn.dataset.poster;
+
+      // create video element
+      const video = document.createElement('video');
+      video.controls = true;
+      video.playsInline = true;
+      video.preload = 'metadata';
+      if (poster) video.poster = poster;
+      video.style.width = '100%';
+      video.style.height = 'auto';
+      video.setAttribute('tabindex', '0');
+
+      // add mp4 source
+      if (mp4) {
+        const s = document.createElement('source');
+        s.src = mp4;
+        s.type = 'video/mp4';
+        video.appendChild(s);
+      }
+
+      // Replace the placeholder button with the video element and attempt to play
+      btn.replaceWith(video);
+
+      // attempt to play (this is a user gesture so audio should be allowed)
+      const p = video.play();
+      if (p && typeof p.then === 'function') {
+        p.catch(err => {
+          // Play prevented (rare since user clicked) — controls will still allow manual play
+          console.log('Video play prevented or failed:', err);
+        });
+      }
+
+      // cleanup on pagehide
+      window.addEventListener('pagehide', () => {
+        try { video.pause(); video.src = ''; } catch(e) {}
+      }, { once: true });
+    });
+  })();
+  </script>
+</body>
+</html>
