@@ -1,8 +1,8 @@
 {
   "name": "Kelvin Muchiri Portfolio",
   "short_name": "Muchiri",
-  "start_url": "/portfolio/",
-  "scope": "/portfolio/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#3a6cf4",
