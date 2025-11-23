@@ -1,0 +1,17 @@
+{
+  "name": "Kelvin Muchiri Portfolio",
+  "short_name": "Muchiri",
+  "start_url": "/portfolio/",
+  "scope": "/portfolio/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3a6cf4",
+  "icons": [
+    {
+      "src": "me.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    }
+  ]
+}
